@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 })
 
 const CONNECTION_URL =
-  "mongodb+srv://ibnesaif:farhan1230@travelogue.mbnk4.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@travelogue.mbnk4.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
 mongoose
